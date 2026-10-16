@@ -1,0 +1,4 @@
+services:
+    Usend\Client:
+        arguments:
+            $apiKey: '%env(USEND_API_KEY)%'
