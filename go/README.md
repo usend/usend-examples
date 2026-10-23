@@ -1,6 +1,6 @@
 # Send with Go
 
-Send email from Go with the usend Go SDK.
+Send email from Go with the uSend Go SDK.
 
 Part of [usend examples](https://github.com/usend/usend-examples). Step-by-step guide: https://usend.et/docs/quickstarts/go
 

@@ -1,6 +1,6 @@
 # Send with SvelteKit
 
-Send email from a SvelteKit form action with the usend SDK.
+Send email from a SvelteKit form action with the uSend SDK.
 
 Part of [usend examples](https://github.com/usend/usend-examples). Step-by-step guide: https://usend.et/docs/quickstarts/sveltekit
 

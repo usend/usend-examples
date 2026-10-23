@@ -1,6 +1,6 @@
 # Send with Rails
 
-Send email from Rails with the usend gem, or through Action Mailer over SMTP.
+Send email from Rails with the uSend gem, or through Action Mailer over SMTP.
 
 Part of [usend examples](https://github.com/usend/usend-examples). Step-by-step guide: https://usend.et/docs/quickstarts/rails
 
@@ -42,7 +42,7 @@ end
 WelcomeEmailJob.perform_later(user)
 ```
 
-The idempotency key makes a retried job safe: usend returns the first result instead of sending again. See [Idempotency](https://usend.et/docs/sending/idempotency). A failure raises `Usend::Error`.
+The idempotency key makes a retried job safe: uSend returns the first result instead of sending again. See [Idempotency](https://usend.et/docs/sending/idempotency). A failure raises `Usend::Error`.
 
 Verify webhooks in a controller with `Usend::Webhook.verify(payload: request.raw_post, headers: request.headers.to_h, secret: ENV["USEND_WEBHOOK_SECRET"])` and `skip_forgery_protection` for that action.
 

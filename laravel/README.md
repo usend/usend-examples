@@ -1,10 +1,10 @@
 # Send with Laravel
 
-Send email from Laravel with the usend PHP SDK, or through SMTP and the Mail facade.
+Send email from Laravel with the uSend PHP SDK, or through SMTP and the Mail facade.
 
 Part of [usend examples](https://github.com/usend/usend-examples). Step-by-step guide: https://usend.et/docs/quickstarts/laravel
 
-You need a [verified domain](https://usend.et/docs/domains/verify) and an [API key](https://usend.et/docs/api-keys). There are two ways to use usend from Laravel. The SDK calls the API directly (templates, batches, scheduling, idempotency); SMTP keeps your existing `Mail::` code. For SMTP see [Laravel with SMTP](https://usend.et/docs/smtp-guides/laravel).
+You need a [verified domain](https://usend.et/docs/domains/verify) and an [API key](https://usend.et/docs/api-keys). There are two ways to use uSend from Laravel. The SDK calls the API directly (templates, batches, scheduling, idempotency); SMTP keeps your existing `Mail::` code. For SMTP see [Laravel with SMTP](https://usend.et/docs/smtp-guides/laravel).
 
 ## Option 1: the PHP SDK
 
@@ -41,7 +41,7 @@ public function handle(\Usend\Client $usend): void
 }
 ```
 
-The idempotency key makes a retried queue job safe: usend returns the first result instead of sending again. See [Idempotency](https://usend.et/docs/sending/idempotency). A failure throws `\Usend\UsendException`.
+The idempotency key makes a retried queue job safe: uSend returns the first result instead of sending again. See [Idempotency](https://usend.et/docs/sending/idempotency). A failure throws `\Usend\UsendException`.
 
 To receive webhooks, call `\Usend\Webhook::verify($request->getContent(), $request->headers->all(), config('services.usend.webhook_secret'))` in a route excluded from CSRF protection.
 

@@ -1,6 +1,6 @@
 # Send with Symfony
 
-Send email from Symfony with the usend PHP SDK, or through Symfony Mailer over SMTP.
+Send email from Symfony with the uSend PHP SDK, or through Symfony Mailer over SMTP.
 
 Part of [usend examples](https://github.com/usend/usend-examples). Step-by-step guide: https://usend.et/docs/quickstarts/symfony
 

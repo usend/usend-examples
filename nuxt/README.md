@@ -1,6 +1,6 @@
 # Send with Nuxt
 
-Send email from a Nuxt server route with the usend SDK.
+Send email from a Nuxt server route with the uSend SDK.
 
 Part of [usend examples](https://github.com/usend/usend-examples). Step-by-step guide: https://usend.et/docs/quickstarts/nuxt
 
@@ -78,7 +78,7 @@ async function send() {
 </template>
 ```
 
-Your page talks to your own route; the route talks to usend. Next: [Send emails](https://usend.et/docs/sending/emails).
+Your page talks to your own route; the route talks to uSend. Next: [Send emails](https://usend.et/docs/sending/emails).
 
 ## Environment
 

@@ -1,6 +1,6 @@
 # Send with Vercel Functions
 
-Send email from a Vercel serverless function with the usend SDK.
+Send email from a Vercel serverless function with the uSend SDK.
 
 Part of [usend examples](https://github.com/usend/usend-examples). Step-by-step guide: https://usend.et/docs/quickstarts/vercel-functions
 

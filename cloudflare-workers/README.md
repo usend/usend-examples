@@ -4,7 +4,7 @@ Send email from a Cloudflare Worker with fetch and a secret.
 
 Part of [usend examples](https://github.com/usend/usend-examples). Step-by-step guide: https://usend.et/docs/quickstarts/cloudflare-workers
 
-Workers have no Node.js APIs by default, but the usend SDK only needs `fetch`, so it works. You need a [verified domain](https://usend.et/docs/domains/verify) and an [API key](https://usend.et/docs/api-keys).
+Workers have no Node.js APIs by default, but the uSend SDK only needs `fetch`, so it works. You need a [verified domain](https://usend.et/docs/domains/verify) and an [API key](https://usend.et/docs/api-keys).
 
 ## 1. Create the project and secret
 
@@ -67,7 +67,7 @@ const res = await fetch('https://api.usend.et/emails', {
 ```
 
 > **Note**
-> Do not let browsers call the usend API directly with your key. Always go through your Worker. See [CORS](https://usend.et/docs/guides/cors).
+> Do not let browsers call the uSend API directly with your key. Always go through your Worker. See [CORS](https://usend.et/docs/guides/cors).
 
 If you want a send to continue after the response, wrap it in `ctx.waitUntil(...)`. Next: [Send emails](https://usend.et/docs/sending/emails).
 

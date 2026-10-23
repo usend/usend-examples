@@ -1,10 +1,10 @@
 # Send with .NET
 
-Send email from .NET 8+ with the usend SDK, plain HTTP or SMTP.
+Send email from .NET 8+ with the uSend SDK, plain HTTP or SMTP.
 
 Part of [usend examples](https://github.com/usend/usend-examples). Step-by-step guide: https://usend.et/docs/quickstarts/dotnet
 
-The usend .NET SDK uses only `System.Net.Http` and `System.Text.Json`. You need a [verified domain](https://usend.et/docs/domains/verify) and an [API key](https://usend.et/docs/api-keys). It targets .NET 8 or newer.
+The uSend .NET SDK uses only `System.Net.Http` and `System.Text.Json`. You need a [verified domain](https://usend.et/docs/domains/verify) and an [API key](https://usend.et/docs/api-keys). It targets .NET 8 or newer.
 
 ## 1. Install
 

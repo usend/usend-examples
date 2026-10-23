@@ -1,6 +1,6 @@
 # Send with PHP
 
-Send email from PHP with the usend SDK, over plain HTTP or over SMTP.
+Send email from PHP with the uSend SDK, over plain HTTP or over SMTP.
 
 Part of [usend examples](https://github.com/usend/usend-examples). Step-by-step guide: https://usend.et/docs/quickstarts/php
 
@@ -53,7 +53,7 @@ It throws `Usend\UsendException` when the signature is wrong. See [Verify signat
 
 ## Without the SDK
 
-The API is one JSON request: `POST https://api.usend.et/emails` with an `Authorization: Bearer` header works from cURL, Guzzle or Symfony HttpClient. If your app already uses PHPMailer or `mail()` through an MTA, point it at usend over SMTP instead (see [PHPMailer](https://usend.et/docs/smtp-guides/phpmailer)): host `smtp.usend.et`, port `465` or `587`, username `usend`, your API key as the password. `$usend->smtpConfig()` returns these settings.
+The API is one JSON request: `POST https://api.usend.et/emails` with an `Authorization: Bearer` header works from cURL, Guzzle or Symfony HttpClient. If your app already uses PHPMailer or `mail()` through an MTA, point it at uSend over SMTP instead (see [PHPMailer](https://usend.et/docs/smtp-guides/phpmailer)): host `smtp.usend.et`, port `465` or `587`, username `usend`, your API key as the password. `$usend->smtpConfig()` returns these settings.
 
 ## Next steps
 

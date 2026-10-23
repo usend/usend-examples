@@ -1,10 +1,10 @@
 # Send with Django
 
-Send email from Django with the usend SDK, or through SMTP and send_mail.
+Send email from Django with the uSend SDK, or through SMTP and send_mail.
 
 Part of [usend examples](https://github.com/usend/usend-examples). Step-by-step guide: https://usend.et/docs/quickstarts/django
 
-You need a [verified domain](https://usend.et/docs/domains/verify) and an [API key](https://usend.et/docs/api-keys). Django can use usend two ways: the SDK below, or SMTP so `send_mail()` keeps working ([Django with SMTP](https://usend.et/docs/smtp-guides/django)).
+You need a [verified domain](https://usend.et/docs/domains/verify) and an [API key](https://usend.et/docs/api-keys). Django can use uSend two ways: the SDK below, or SMTP so `send_mail()` keeps working ([Django with SMTP](https://usend.et/docs/smtp-guides/django)).
 
 ## 1. Install and configure
 

@@ -1,6 +1,6 @@
 # Send with Remix
 
-Send email from a Remix action with the usend SDK.
+Send email from a Remix action with the uSend SDK.
 
 Part of [usend examples](https://github.com/usend/usend-examples). Step-by-step guide: https://usend.et/docs/quickstarts/remix
 
@@ -56,11 +56,44 @@ export default function Contact() {
 }
 ```
 
+## Send a React Email component
+
+To design the email in React, install React Email (`npm install @react-email/components @react-email/render`) and pass the component as `react`. The uSend SDK renders it to HTML on the server before sending.
+
+`app/emails/contact-notification.tsx`
+
+```tsx
+import { Body, Html, Text } from '@react-email/components';
+
+export function ContactNotification({ email, message }: { email: string; message: string }) {
+  return (
+    <Html>
+      <Body style={{ fontFamily: 'sans-serif' }}>
+        <Text>New message from {email}:</Text>
+        <Text>{message}</Text>
+      </Body>
+    </Html>
+  );
+}
+```
+
+```tsx
+import { ContactNotification } from '~/emails/contact-notification';
+
+const { data, error } = await usend.emails.send({
+  from: 'Acme <hello@acme.com>',
+  to: ['support@acme.com'],
+  reply_to: email,
+  subject: 'New contact form message',
+  react: <ContactNotification email={email} message={message} />,
+});
+```
+
 ## Notes
 
 - Use `reply_to` so a reply to the notification goes to the visitor.
 - Never put visitor input in `from`; keep it a fixed address on your verified domain.
-- Every send needs one of `html`, `text` or a [template](https://usend.et/docs/sending/templates).
+- Every send needs one of `html`, `text`, `react` (Node.js SDK) or a [template](https://usend.et/docs/sending/templates).
 
 See [Send emails](https://usend.et/docs/sending/emails) for the full list of fields.
 

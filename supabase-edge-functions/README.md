@@ -56,11 +56,11 @@ curl -X POST http://localhost:54321/functions/v1/send-email \
 supabase functions deploy send-email
 ```
 
-The `Authorization` header here is Supabase's, not usend's: it lets the caller reach your function.
+The `Authorization` header here is Supabase's, not uSend's: it lets the caller reach your function.
 
-## Sending auth emails through usend
+## Sending auth emails through uSend
 
-To send Supabase Auth emails (confirmations, magic links) through usend, you do not need a function: use SMTP. See [Supabase Auth with SMTP](https://usend.et/docs/smtp-guides/supabase-auth).
+To send Supabase Auth emails (confirmations, magic links) through uSend, you do not need a function: use SMTP. See [Supabase Auth with SMTP](https://usend.et/docs/smtp-guides/supabase-auth).
 
 ## Environment
 

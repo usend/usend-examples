@@ -1,10 +1,10 @@
 # Send with Java
 
-Send email from Java 11+ with the usend SDK, plain HTTP or SMTP.
+Send email from Java 11+ with the uSend SDK, plain HTTP or SMTP.
 
 Part of [usend examples](https://github.com/usend/usend-examples). Step-by-step guide: https://usend.et/docs/quickstarts/java
 
-The usend Java SDK has no dependencies (it uses the JDK's `java.net.http` client). You need a [verified domain](https://usend.et/docs/domains/verify) and an [API key](https://usend.et/docs/api-keys).
+The uSend Java SDK has no dependencies (it uses the JDK's `java.net.http` client). You need a [verified domain](https://usend.et/docs/domains/verify) and an [API key](https://usend.et/docs/api-keys).
 
 ## 1. Install
 

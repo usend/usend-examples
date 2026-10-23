@@ -1,10 +1,10 @@
 # Send with Phoenix
 
-Send email from a Phoenix app through SMTP and Swoosh, or with the usend SDK.
+Send email from a Phoenix app through SMTP and Swoosh, or with the uSend SDK.
 
 Part of [usend examples](https://github.com/usend/usend-examples). Step-by-step guide: https://usend.et/docs/quickstarts/phoenix
 
-You need a [verified domain](https://usend.et/docs/domains/verify) and an [API key](https://usend.et/docs/api-keys). Phoenix apps use Swoosh for mail; point it at usend over SMTP, or call the API with the usend SDK.
+You need a [verified domain](https://usend.et/docs/domains/verify) and an [API key](https://usend.et/docs/api-keys). Phoenix apps use Swoosh for mail; point it at uSend over SMTP, or call the API with the uSend SDK.
 
 ## Option 1: Swoosh over SMTP
 
@@ -24,7 +24,7 @@ config :my_app, MyApp.Mailer,
 
 For port 465 use `port: 465, ssl: true, tls: :never`. Existing `MyApp.Mailer.deliver/1` calls keep working. Settings: [Send with SMTP](https://usend.et/docs/sending/smtp).
 
-## Option 2: the usend SDK
+## Option 2: the uSend SDK
 
 Add `{:usend, "~> 1.0"}` to your deps, then:
 

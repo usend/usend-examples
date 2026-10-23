@@ -1,6 +1,6 @@
 # Send with Ruby
 
-Send email from Ruby with the usend gem, over plain HTTP or over SMTP.
+Send email from Ruby with the uSend gem, over plain HTTP or over SMTP.
 
 Part of [usend examples](https://github.com/usend/usend-examples). Step-by-step guide: https://usend.et/docs/quickstarts/ruby
 

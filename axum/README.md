@@ -1,6 +1,6 @@
 # Send with Axum
 
-Send email from an Axum handler with the usend crate.
+Send email from an Axum handler with the uSend crate.
 
 Part of [usend examples](https://github.com/usend/usend-examples). Step-by-step guide: https://usend.et/docs/quickstarts/axum
 
@@ -21,7 +21,7 @@ tokio = { version = "1", features = ["full"] }
 
 ## 2. The server
 
-The usend client is blocking, so each call runs on a blocking thread with `spawn_blocking`. `Client` is cheap to clone.
+The uSend client is blocking, so each call runs on a blocking thread with `spawn_blocking`. `Client` is cheap to clone.
 
 `src/main.rs`
 

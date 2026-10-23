@@ -1,6 +1,6 @@
 # Send with Bun
 
-Send email from Bun with the usend SDK or plain fetch.
+Send email from Bun with the uSend SDK or plain fetch.
 
 Part of [usend examples](https://github.com/usend/usend-examples). Step-by-step guide: https://usend.et/docs/quickstarts/bun
 

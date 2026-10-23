@@ -1,6 +1,6 @@
 # Send with Python
 
-Send your first email from Python with the usend SDK.
+Send your first email from Python with the uSend SDK.
 
 Part of [usend examples](https://github.com/usend/usend-examples). Step-by-step guide: https://usend.et/docs/quickstarts/python
 

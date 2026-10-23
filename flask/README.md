@@ -1,6 +1,6 @@
 # Send with Flask
 
-Send email from a Flask view with the usend SDK.
+Send email from a Flask view with the uSend SDK.
 
 Part of [usend examples](https://github.com/usend/usend-examples). Step-by-step guide: https://usend.et/docs/quickstarts/flask
 

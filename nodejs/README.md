@@ -1,6 +1,6 @@
 # Send with Node.js
 
-Send your first email from a Node.js script with the usend SDK.
+Send your first email from a Node.js script with the uSend SDK.
 
 Part of [usend examples](https://github.com/usend/usend-examples). Step-by-step guide: https://usend.et/docs/quickstarts/nodejs
 

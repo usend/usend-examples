@@ -1,10 +1,10 @@
 # Send with Elixir
 
-Send email from Elixir with the usend SDK, plain HTTP or SMTP.
+Send email from Elixir with the uSend SDK, plain HTTP or SMTP.
 
 Part of [usend examples](https://github.com/usend/usend-examples). Step-by-step guide: https://usend.et/docs/quickstarts/elixir
 
-The usend Elixir SDK has no dependencies (it uses OTP's `:httpc`). You need a [verified domain](https://usend.et/docs/domains/verify) and an [API key](https://usend.et/docs/api-keys).
+The uSend Elixir SDK has no dependencies (it uses OTP's `:httpc`). You need a [verified domain](https://usend.et/docs/domains/verify) and an [API key](https://usend.et/docs/api-keys).
 
 ## 1. Dependency
 

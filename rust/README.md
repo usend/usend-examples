@@ -1,6 +1,6 @@
 # Send with Rust
 
-Send email from Rust with the usend crate.
+Send email from Rust with the uSend crate.
 
 Part of [usend examples](https://github.com/usend/usend-examples). Step-by-step guide: https://usend.et/docs/quickstarts/rust
 

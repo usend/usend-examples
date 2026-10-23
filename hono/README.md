@@ -1,10 +1,10 @@
 # Send with Hono
 
-Send email from a Hono app with the usend SDK, on Node, Bun, Deno or Workers.
+Send email from a Hono app with the uSend SDK, on Node, Bun, Deno or Workers.
 
 Part of [usend examples](https://github.com/usend/usend-examples). Step-by-step guide: https://usend.et/docs/quickstarts/hono
 
-Hono runs on many runtimes; the usend SDK uses only `fetch`, so the same code works on all of them. You need a [verified domain](https://usend.et/docs/domains/verify) and an [API key](https://usend.et/docs/api-keys).
+Hono runs on many runtimes; the uSend SDK uses only `fetch`, so the same code works on all of them. You need a [verified domain](https://usend.et/docs/domains/verify) and an [API key](https://usend.et/docs/api-keys).
 
 ## 1. Install
 

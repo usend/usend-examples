@@ -1,6 +1,6 @@
 # Send with Express
 
-Send email from an Express route with the usend SDK.
+Send email from an Express route with the uSend SDK.
 
 Part of [usend examples](https://github.com/usend/usend-examples). Step-by-step guide: https://usend.et/docs/quickstarts/express
 
@@ -51,7 +51,7 @@ curl -X POST localhost:3000/send -H 'Content-Type: application/json' -d '{"email
 
 ## Receive webhooks in the same app
 
-usend signs webhooks, and verification needs the raw request body, so mount the raw parser on that route only:
+uSend signs webhooks, and verification needs the raw request body, so mount the raw parser on that route only:
 
 ```js
 import { verifyWebhook } from '@usend/node';
